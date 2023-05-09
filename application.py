@@ -4,7 +4,7 @@ import os
 import subprocess
 import urllib.request
 import urllib.parse
-import urljoin
+from urllib.parse import urljoin
 
 from flask import Flask, render_template, render_template_string, url_for, redirect, flash, g
 from flask_wtf import FlaskForm
